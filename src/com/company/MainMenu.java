@@ -21,8 +21,14 @@ public class MainMenu {
         try {
             switch (selection) {
 
+                //pull input into this line
+
                 case 1:
                     //create task
+                    System.in.println("Enter your task name.");
+                    System.in.println("Enter your due date");
+                    System.in.println("Enter your task details");
+
                 case 2:
                     //edit task
                 case 3:
